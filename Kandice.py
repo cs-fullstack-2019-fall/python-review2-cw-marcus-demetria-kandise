@@ -30,10 +30,7 @@ def currentTasks():
     # userInput = ""
     if userInput == 1:
         print(f'{name} current task list: {tlist}')
-
-
-
-
+        return
 
 currentTasks()
 
@@ -43,6 +40,7 @@ def addFunction():
         print(f'Items currently in your list: {arrayOfName}')
         arrayOfName.append(input("Add item to your list: "))
         print(f'Your current list is:{arrayOfName}')
+        return
 addFunction()
 
 
