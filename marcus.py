@@ -1,7 +1,8 @@
 from Kandice import userInput
+from Demetria import tlist
+choreList = tlist
 def deleteTask():
     if userInput == 3:
-        choreList = ["dish", "clothes", "car"]
         print(choreList)
         userInput2 = input("what task do you want to delete ")
         for i in choreList:
