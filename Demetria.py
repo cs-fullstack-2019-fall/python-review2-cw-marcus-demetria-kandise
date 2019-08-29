@@ -32,6 +32,8 @@
 
 def travelList ():
 
-traveList = ['pack', 'flight','hotel','shop']
+    tlist= ['pack', 'flight','hotel','shop']
 
-
+userInput=""
+while userInput = (1):
+userInput= int(input("Please make a selection "))
