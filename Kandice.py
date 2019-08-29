@@ -1,4 +1,5 @@
-# from marcus.py import
+
+from Demetria import travelList
 # Congratulations! You're running [YOUR NAME]'s Task List program.
 
 # What would you like to do next?
@@ -12,7 +13,7 @@
 
 
 def main():
-    name = "Mark Smith"
+    name = input("Enter your name? ")
     print(f"Congratulations! You're running {name}'s Task List program\n")
     print(f'What would you like to do next?\n'
           f'1. List all tasks.\n'
@@ -22,12 +23,15 @@ def main():
 
 
 main()
-userInput=int(input("Please make a selection "))
 
+
+
+userInput=int(input("Please make a selection "))
+travelList()
 arrayOfName =['lst','of','stuff']
 
 def addFunction():
-    if userInput == 1:
+    if userInput == 2:
         print(f'Items currently in your list: {arrayOfName}')
         arrayOfName.append(input("Add item to your list: "))
         print(f'Your current list is:{arrayOfName}')
