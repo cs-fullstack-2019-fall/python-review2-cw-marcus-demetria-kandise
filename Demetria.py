@@ -36,4 +36,5 @@ def travelList ():
 
 userInput=""
 while userInput = (1):
-userInput= int(input("Please make a selection "))
+    userInput= int(input("Please make a selection "))
+travelList()
