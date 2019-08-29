@@ -29,11 +29,11 @@
 #     To delete a task
 #
 # arrayOfTasks.remove(deleteTask)
-
-def travelList():
-    tlist = ['pack', 'flight', 'hotel', 'shop']
-    userInput = ""
-    while userInput == 1:
-        userInput = int(input("Please make a selection "))
-        print(tlist)
-travelList()
+tlist = ['pack', 'flight', 'hotel', 'shop']
+# def travelList():
+#
+#     # userInput = ""
+#     while userInput == 1:
+#         # userInput = int(input("Please make a selection "))
+#         print(tlist)
+# travelList()
