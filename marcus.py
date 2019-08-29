@@ -15,4 +15,3 @@ def deleteTask():
 
 
 deleteTask()
-
