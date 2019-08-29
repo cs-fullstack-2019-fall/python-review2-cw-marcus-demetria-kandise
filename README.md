@@ -1,3 +1,4 @@
+I know it's difficult to split this assignment three ways but it looks like 90% of the work is in kandice.py. Try to split the work up a little more evenly in the future. Your functions should be called inside of a loop with conditions. Score : 2
 # python-review2-cw
 
 Create a task list. A user is presented with the text below. Let them select an option to list all of their tasks, add a task to their list, delete a task, or quit the program. Make each option a different function in your program. Do <strong>NOT</strong> use Google. Do <strong>NOT</strong> use other students. Try to do this on your own.
